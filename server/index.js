@@ -23,7 +23,7 @@ app.get("/styles", (req, res) => {
   res.sendFile(path.join(__dirname, "client/styles.css"));
 });
 
-app.get("/js", (req, res) => {
+app.get("/main", (req, res) => {
   res.sendFile(path.join(__dirname, "client/main.js"));
 });
 
