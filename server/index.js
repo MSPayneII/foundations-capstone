@@ -15,17 +15,17 @@ app.get("/", (req, res) => {
   res.sendFile("index.html");
 });
 
-app.get("/reset", (req, res) => {
-  res.sendFile(path.join(__dirname, "client/reset.css"));
-});
+// app.get("/client/", (req, res) => {
+//   res.sendFile("reset.css");
+// });
 
-app.get("/styles", (req, res) => {
-  res.sendFile(path.join(__dirname, "client/styles.css"));
-});
+// app.get("/client", (req, res) => {
+//   res.sendFile("styles.css");
+// });
 
-app.get("/main", (req, res) => {
-  res.sendFile(path.join(__dirname, "client/main.js"));
-});
+// app.get("/main", (req, res) => {
+//   res.sendFile(path.join(__dirname, "client/main.js"));
+// });
 
 app.get(`/api/fortune`, ctrl.getRandomFortune);
 app.get(`/api/answerResponses`, ctrl.getAnswerResponses);
