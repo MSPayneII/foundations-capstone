@@ -122,12 +122,12 @@ form {
   /* appearance: none; */
 }
 
-.errormsg {
-  display: block;
+/* .errormsg {
+  display: none;
   color: var(--red);
   padding-left: 1rem;
   margin-bottom: 1rem;
-}
+} */
 
 .form-submit-btn:hover {
   background: var(--lightViolet);

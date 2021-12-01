@@ -6,11 +6,11 @@ const eightBall = document.querySelector(".eightball");
 const answerResponseContainer = document.querySelector(
   ".answer-response-container"
 );
-const errorMsg = document.querySelector("#error-msg");
+// const errorMsg = document.querySelector("#error-msg");
 
 const baseURL = "https://mpayne-foundation-capstone.herokuapp.com/api/fortune";
 const answerRespURL =
-  "https://mpayne-foundation-capstone.herokuapp.com/answerResponses";
+  "https://mpayne-foundation-capstone.herokuapp.com/api/answerResponses";
 
 let eightBallAnswer = "";
 userInput.value = "";
@@ -68,22 +68,8 @@ const deleteAllSavedResponses = () => {
 
 // submit handler function for the user question submission form
 const submitHandler = (event) => {
-  event.preventDefault;
+  event.preventDefault();
 
-  if (userInput.value.length === 0) {
-    userInput.placeholder = "";
-    userInput.style.background =
-      "url('./images/icon-error.svg') no-repeat 95% 50%";
-    userInput.style.border = "1px solid #ff7a7a";
-    userInput.style.paddingRight = "20rem";
-    userInput.style.marginBottom = "0.5rem";
-    errorMsg.style.display = "block";
-    event.preventDefault();
-  } else {
-    errorMsg.style.display = "none";
-    userInput.style.background = "none";
-    userInput.style.border = "0.5px solid #dedede";
-  }
   disablitySubmitBtn();
 
   getFortune();
