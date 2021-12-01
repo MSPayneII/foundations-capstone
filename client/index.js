@@ -7,8 +7,9 @@ const answerResponseContainer = document.querySelector(
   ".answer-response-container"
 );
 
-const baseURL = "http://localhost:5432/api/fortune";
-const answerRespURL = "http://localhost:5432/api/answerResponses";
+const baseURL = "https://mpayne-foundation-capstone.herokuapp.com/api/fortune";
+const answerRespURL =
+  "https://mpayne-foundation-capstone.herokuapp.com//api/answerResponses";
 
 let eightBallAnswer = "";
 userInput.value = "";
