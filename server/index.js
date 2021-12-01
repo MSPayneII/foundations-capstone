@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+const path = require("path");
 const cors = require("cors");
 const ctrl = require("./controllers");
 
@@ -12,6 +13,18 @@ app.use(express.static("client"));
 
 app.get("/", (req, res) => {
   res.sendFile("index.html");
+});
+
+app.get("/reset", (req, res) => {
+  res.sendFile(path.join(__dirname, "reset.css"));
+});
+
+app.get("/styles", (req, res) => {
+  res.sendFile(path.join(__dirname, "styles.css"));
+});
+
+app.get("/js", (req, res) => {
+  res.sendFile(path.join(__dirname, "main.js"));
 });
 
 app.get(`/api/fortune`, ctrl.getRandomFortune);
