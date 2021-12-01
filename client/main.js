@@ -6,7 +6,6 @@ const eightBall = document.querySelector(".eightball");
 const answerResponseContainer = document.querySelector(
   ".answer-response-container"
 );
-// const errorMsg = document.querySelector("#error-msg");
 
 const baseURL = "https://mpayne-foundation-capstone.herokuapp.com/api/fortune";
 const answerRespURL =
@@ -57,11 +56,12 @@ const getFortune = () => {
     .catch((err) => console.log(error));
 };
 
-//
+//post the user question and the matching eightball response
 const createResponse = (body) => {
   axios.post(answerRespURL, body).then(answerResponseCallBack);
 };
 
+// delete rest method that clears all previous answer/responses from the server list
 const deleteAllSavedResponses = () => {
   axios.delete(answerRespURL).then(answerResponseCallBack);
 };
@@ -90,7 +90,7 @@ const submitHandler = (event) => {
   }, 8500);
 };
 
-// Code for creating a table row
+// Code for creating a table row for displaying question/answer pairs
 const createTableRow = (answerResponse) => {
   let rowIndex = 0;
   const tableRow = answerResponseContainer.insertRow(rowIndex);
@@ -102,7 +102,7 @@ const createTableRow = (answerResponse) => {
   `;
 };
 
-//toggle form submit button disability
+//toggle form submit button disability and prevents the user from submitting a new question before the animation has ended
 const disablitySubmitBtn = () => {
   if (!formBtn.disabled) {
     formBtn.classList.add("disabled-btn");
@@ -121,6 +121,7 @@ const displayAnswerResponses = (arr) => {
   }
 };
 
+// clears the server array that holds the question/answer objects once the browser is refreshed
 window.addEventListener("load", () => deleteAllSavedResponses());
 
 formBtn.addEventListener("click", submitHandler);

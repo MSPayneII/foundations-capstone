@@ -3,22 +3,13 @@
   /* General Colors */
   --violet: #5964e0;
   --lightViolet: #939bf4;
-  --grey: #9daec2;
   --lightGrey: #f4f6f8;
   --lightGrey2: #ebedf0;
-  --blue: #1c23e8;
   --white: #ffffff;
   --black: #000000;
-  --green: #38cc8b;
   --red: #f43030;
-
-  /* Colors Dark Theme */
-  --darkTextWhite: #f5f7ff;
   --darkBg: #1e202a;
-
-  /* Colors Light Theme */
   --lightTextBlue: #1e202a;
-  --lightBg: #ffffff;
 
   /* Typography */
   --poppins: "poppins", sans-serif;
@@ -28,17 +19,13 @@
   --fontXsm: 0.5625rem; /*9px*/
   --fontXsm2: 0.75rem; /*12px*/
   --fontSmall: 0.875rem; /*14px*/
-  --fontReg: 0.9375rem; /*15px*/
   --fontMed: 1rem; /*16px*/
   --fontMed2: 1.125rem; /*18px*/
   --fontLarge: 1.75rem; /*28px*/
-  --fontLarge2: 2rem; /*32px*/
-  --fontXl: 3.125rem; /*50px*/
 
   /* Font Weights */
   --regular: 400;
   --medium: 500;
-  --semi-bold: 600;
   --bold: 700;
 }
 
@@ -122,13 +109,6 @@ form {
   /* appearance: none; */
 }
 
-/* .errormsg {
-  display: none;
-  color: var(--red);
-  padding-left: 1rem;
-  margin-bottom: 1rem;
-} */
-
 .form-submit-btn:hover {
   background: var(--lightViolet);
   color: var(--white);
@@ -158,7 +138,6 @@ form {
   margin-bottom: 3rem;
   max-width: 36rem;
   text-align: center;
-  /* display: none; */
 }
 
 /* ******************************* */
