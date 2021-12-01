@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "type": "Affirmative",
+    "answer": "It is<br/>certain"
+  },
+  {
+    "id": 2,
+    "type": "Affirmative",
+    "answer": "It is<br/>decidely so"
+  },
+  {
+    "id": 3,
+    "type": "Affirmative",
+    "answer": "Without a<br/>doubt"
+  },
+  {
+    "id": 4,
+    "type": "Affirmative",
+    "answer": "Yes -<br/>definitely"
+  },
+  {
+    "id": 5,
+    "type": "Affirmative",
+    "answer": "You may<br/>rely on it"
+  },
+  {
+    "id": 6,
+    "type": "Affirmative",
+    "answer": "As I see it,<br/>yes"
+  },
+  {
+    "id": 7,
+    "type": "Affirmative",
+    "answer": "Most<br/>likely"
+  },
+  {
+    "id": 8,
+    "type": "Affirmative",
+    "answer": "Outlook<br/>good"
+  },
+  {
+    "id": 9,
+    "type": "Affirmative",
+    "answer": "Yes"
+  },
+  {
+    "id": 10,
+    "type": "Affirmative",
+    "answer": "Signs point<br/>to yes"
+  },
+  {
+    "id": 11,
+    "type": "Non-Committal",
+    "answer": "Reply hazy,<br/>try again"
+  },
+  {
+    "id": 12,
+    "type": "Non-Committal",
+    "answer": "Ask again<br/>later"
+  },
+  {
+    "id": 13,
+    "type": "Non-Committal",
+    "answer": "Better not<br/>tell you<br/>now"
+  },
+  {
+    "id": 14,
+    "type": "Non-Committal",
+    "answer": "Cannot predict<br/>now"
+  },
+  {
+    "id": 15,
+    "type": "Non-Committal",
+    "answer": "Concentrate and<br/>ask again"
+  },
+  {
+    "id": 16,
+    "type": "Negative",
+    "answer": "Don't count<br/>on it"
+  },
+  {
+    "id": 17,
+    "type": "Negative",
+    "answer": "My reply<br/>is no"
+  },
+  {
+    "id": 18,
+    "type": "Negative",
+    "answer": "My sources<br/>say no"
+  },
+  {
+    "id": 19,
+    "type": "Negative",
+    "answer": "Outlook<br/>not so<br/>good"
+  },
+  {
+    "id": 20,
+    "type": "Negative",
+    "answer": "Very<br/>doubtful"
+  }
+]
