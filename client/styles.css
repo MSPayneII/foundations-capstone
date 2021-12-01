@@ -122,6 +122,13 @@ form {
   /* appearance: none; */
 }
 
+.errormsg {
+  display: block;
+  color: var(--red);
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
 .form-submit-btn:hover {
   background: var(--lightViolet);
   color: var(--white);
