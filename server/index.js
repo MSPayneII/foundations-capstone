@@ -16,15 +16,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/reset", (req, res) => {
-  res.sendFile(path.join(__dirname, "reset.css"));
+  res.sendFile(path.join(__dirname, "client/reset.css"));
 });
 
 app.get("/styles", (req, res) => {
-  res.sendFile(path.join(__dirname, "styles.css"));
+  res.sendFile(path.join(__dirname, "client/styles.css"));
 });
 
 app.get("/js", (req, res) => {
-  res.sendFile(path.join(__dirname, "main.js"));
+  res.sendFile(path.join(__dirname, "client/main.js"));
 });
 
 app.get(`/api/fortune`, ctrl.getRandomFortune);
