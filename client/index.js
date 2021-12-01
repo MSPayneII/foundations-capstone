@@ -9,7 +9,7 @@ const answerResponseContainer = document.querySelector(
 
 const baseURL = "https://mpayne-foundation-capstone.herokuapp.com/api/fortune";
 const answerRespURL =
-  "https://mpayne-foundation-capstone.herokuapp.com//api/answerResponses";
+  "https://mpayne-foundation-capstone.herokuapp.com/answerResponses";
 
 let eightBallAnswer = "";
 userInput.value = "";
