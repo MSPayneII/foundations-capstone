@@ -15,18 +15,6 @@ app.get("/", (req, res) => {
   res.sendFile("index.html");
 });
 
-app.get("/reset", (req, res) => {
-  res.sendFile(path.join(__dirname, "client/reset.css"));
-});
-
-app.get("/styles", (req, res) => {
-  res.sendFile(path.join(__dirname, "client/index.css"));
-});
-
-app.get("/js", (req, res) => {
-  res.sendFile(path.join(__dirname, "client/index.js"));
-});
-
 app.get(`/api/fortune`, ctrl.getRandomFortune);
 app.get(`/api/answerResponses`, ctrl.getAnswerResponses);
 app.post(`/api/answerResponses`, ctrl.createAnswerResp);

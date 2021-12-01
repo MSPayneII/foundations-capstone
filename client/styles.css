@@ -111,7 +111,7 @@ form {
   background: var(--violet);
   color: var(--white);
   text-transform: uppercase;
-  margin-left: 24rem;
+  left: 24rem;
   border: none;
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
