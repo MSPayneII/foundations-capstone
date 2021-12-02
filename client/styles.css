@@ -1,7 +1,7 @@
 /******** Variables ***********/
 :root {
   /* General Colors */
-  --violet: #5964e0;
+  --violet: #5762e0;
   --lightViolet: #939bf4;
   --lightGrey: #f4f6f8;
   --lightGrey2: #ebedf0;
@@ -139,7 +139,7 @@ form {
   font-weight: var(--regular);
   margin-bottom: 3rem;
   max-width: 36rem;
-  text-align: center;
+  text-align: justify;
   /* display: none; */
 }
 /* ******************************* */
