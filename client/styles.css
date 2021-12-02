@@ -3,20 +3,13 @@
   /* General Colors */
   --violet: #5964e0;
   --lightViolet: #939bf4;
-  --grey: #9daec2;
   --lightGrey: #f4f6f8;
   --lightGrey2: #ebedf0;
-  --blue: #1c23e8;
   --white: #ffffff;
   --black: #000000;
-  --green: #38cc8b;
   --red: #f43030;
 
-  /* Colors Dark Theme */
-  --darkTextWhite: #f5f7ff;
   --darkBg: #1e202a;
-
-  /* Colors Light Theme */
   --lightTextBlue: #1e202a;
   --lightBg: #ffffff;
 
@@ -28,7 +21,6 @@
   --fontXsm: 0.5625rem; /*9px*/
   --fontXsm2: 0.75rem; /*12px*/
   --fontSmall: 0.875rem; /*14px*/
-  --fontReg: 0.9375rem; /*15px*/
   --fontMed: 1rem; /*16px*/
   --fontMed2: 1.125rem; /*18px*/
   --fontLarge: 1.75rem; /*28px*/
@@ -38,10 +30,8 @@
   /* Font Weights */
   --regular: 400;
   --medium: 500;
-  --semi-bold: 600;
   --bold: 700;
 }
-
 /* ******************************* */
 
 * {
@@ -49,16 +39,16 @@
   line-height: 1.3;
 }
 
+hr {
+  background-color: var(--lightGrey);
+  height: 0.2rem;
+}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 3rem;
-}
-
-hr {
-  background-color: var(--lightGrey);
-  height: 0.2rem;
 }
 
 h1,
@@ -132,7 +122,6 @@ form {
   text-decoration: line-through;
   text-decoration-color: var(--red);
 }
-
 /* ******************************* */
 
 /******** Top of page/hero ***********/
@@ -153,8 +142,9 @@ form {
   text-align: center;
   /* display: none; */
 }
-
 /* ******************************* */
+
+/******** EightBall ***********/
 
 .eightball {
   display: flex;
@@ -295,6 +285,7 @@ form {
     opacity: 1;
   }
 }
+/* ******************************* */
 
 .section-container {
   display: flex;
@@ -332,14 +323,6 @@ form {
   font-size: var(--fontLarge2);
   font-weight: var(--bold);
   color: var(--lightTextBlue);
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.empty-list {
-  font-size: var(--fontLarge);
-  font-weight: var(--bold);
-  color: var(--white);
   margin-bottom: 2rem;
   text-align: center;
 }
