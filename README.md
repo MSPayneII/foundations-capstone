@@ -21,7 +21,6 @@ Build a digital experience that rivals the experience of playing with the real t
 
 
 ## Technologies:
-Technologies:
 - Axios
 - Express
 - Javascript
