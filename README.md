@@ -13,19 +13,14 @@ I wanted to create a digital version of the Magic Eightball that is currently pr
 ## Project Goal: 
 Build a digital experience that rivals the experience of playing with the real toy.
 
-Build Features:
-
-=======
+## Build Features:
 - Users can enter questions to ask the eight ball
 - Users will receive a randomized answer to their question via an animation displayed on the eight ball
 - Q&As will save and display on screen for users
 - Saved Q&As are erased by refreshing the browser
 
 
-Technologies:
-
-=======
-
+## Technologies:
 Technologies:
 - Axios
 - Express
@@ -33,8 +28,7 @@ Technologies:
 - HTML
 - CSS
 
-What I am proud of:
-
+## What I am proud of:
 - Figuring out a way to combine async and synchronous code and time it so all aspects of the eightball animation flow together
 
 ### 🏠 [Homepage](https://mpayne-foundation-capstone.herokuapp.com/)
