@@ -139,7 +139,7 @@ form {
   font-weight: var(--regular);
   margin-bottom: 3rem;
   max-width: 36rem;
-  text-align: justify;
+  text-align: center;
   /* display: none; */
 }
 /* ******************************* */
