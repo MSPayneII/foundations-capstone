@@ -7,8 +7,6 @@
   </a>
 </p>
 
-> Project Title: 8-Ball Fortune Teller
-
 Reason for choosing this project: I wanted to create a digital version of the Magic Eightball that is currently produced by Mattel
 
 Project Goal: Build a digital experience that rivals the experience of playing with the real toy.
