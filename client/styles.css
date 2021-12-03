@@ -222,9 +222,9 @@ form {
 
 @media (min-width: 40em) {
   .number-eight {
-    width: 10.5rem;
-    height: 10.5rem;
-    font-size: 8rem;
+    width: 12.5rem;
+    height: 12.5rem;
+    font-size: 10rem;
   }
   .answer-display {
     width: 30vmin;
