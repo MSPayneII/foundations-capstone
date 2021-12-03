@@ -226,10 +226,6 @@ form {
     height: 12.5rem;
     font-size: 10rem;
   }
-  .answer-display {
-    width: 30vmin;
-    height: 30vmin;
-  }
 }
 
 .answer-display {
@@ -258,8 +254,7 @@ form {
 
 @media (max-width: 87em) {
   .answer-card {
-    top: 3rem;
-    left: 2rem;
+    left: 3rem;
     width: 15vmin;
     height: 15vmin;
   }
