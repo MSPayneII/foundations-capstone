@@ -222,9 +222,13 @@ form {
 
 @media (min-width: 40em) {
   .number-eight {
-    width: 12.5rem;
-    height: 12.5rem;
-    font-size: 10rem;
+    width: 10.5rem;
+    height: 10.5rem;
+    font-size: 8rem;
+  }
+  .answer-display {
+    width: 30vmin;
+    height: 30vmin;
   }
 }
 
@@ -254,7 +258,8 @@ form {
 
 @media (max-width: 87em) {
   .answer-card {
-    left: 3rem;
+    top: 3rem;
+    left: 2rem;
     width: 15vmin;
     height: 15vmin;
   }
