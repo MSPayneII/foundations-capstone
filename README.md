@@ -28,7 +28,7 @@
 
 Build a digital experience that rivals the experience of playing with the real Magic Eightball, currently produced by Mattel.
 
-### Reason for choosing this project:
+### Reasons for choosing this project:
 
 - Practicality
 - Creative way to build a CRD (no U) application
@@ -64,6 +64,16 @@ Build a digital experience that rivals the experience of playing with the real M
 
 - Figuring out a way to combine async and synchronous code and time it so all aspects of the eightball animation flow together
 
+### Continued development
+
+- Build 8-Ball Fortune Teller version 2 in React, using functional components and React Hooks
+
+- Add form validation with visual cues for the user
+
+- Update css variable naming convention
+
+- Add side navigation bar with links to eightball display and saved responses. They will be on separate pages but will display on the main landing page
+
 ## Author
 
 👤 **Michael Payne**
@@ -72,4 +82,4 @@ Build a digital experience that rivals the experience of playing with the real M
 - Github: [@MSPayneII](https://github.com/MSPayneII)
 - LinkedIn: [@michaelspayneii](https://linkedin.com/in/michaelspayneii)
 
-# _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
