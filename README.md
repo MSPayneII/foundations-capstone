@@ -1,4 +1,3 @@
-
 <h1 align="center">Welcome to my Bright Paths Foundation Capstone:<br/> 8-Ball Fortune Teller 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -7,57 +6,70 @@
   </a>
 </p>
 
-## Reason for choosing this project: 
-I wanted to create a digital version of the Magic Eightball that is currently produced by Mattel
+## Table of contents
 
-## Project Goal: 
-Build a digital experience that rivals the experience of playing with the real toy.
+- [Overview](#overview)
+  - [Project Goal](#project-goal)
+  - [Reasons for choosing this project](#reasons-for-choosing-this-project)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
 
-## Build Features:
-- Users can enter questions to ask the eight ball
-- Users will receive a randomized answer to their question via an animation displayed on the eight ball
-- Q&As will save and display on screen for users
-- Saved Q&As are erased by refreshing the browser
+  - [Technologies Used](#technologies-used)
+  - [Build Features](#build-features)
+  - [What I Am Proud Of](#what-i-am-proud-of)
+  - [Continued development](#continued-development)
 
+- [Author](#author)
 
-## Technologies:
+## Overview
+
+### Project Goal:
+
+Build a digital experience that rivals the experience of playing with the real Magic Eightball, currently produced by Mattel.
+
+### Reason for choosing this project:
+
+- Practicality
+- Creative way to build a CRD (no U) application
+- Change to learn by doing
+
+### Screenshot
+
+![Screenshot](client/images/eightballgif.gif)
+
+### Links
+
+- Solution URL: [Github](https://github.com/MSPayneII/foundations-capstone)
+- Live Site URL: [Heroku](https://mpayne-foundation-capstone.herokuapp.com/)
+
+## My Process
+
+### Technologies Used:
+
 - Axios
 - Express
 - Javascript
 - HTML
 - CSS
 
+## Build Features:
+
+- Users can enter questions to ask the eight ball
+- Users will receive a randomized answer to their question via an animation displayed on the eight ball
+- Q&As will save and display on screen for users
+- Saved Q&As are erased by refreshing the browser
+
 ## What I am proud of:
+
 - Figuring out a way to combine async and synchronous code and time it so all aspects of the eightball animation flow together
-
-### 🏠 [Homepage](https://mpayne-foundation-capstone.herokuapp.com/)
-
-## Install
-
-```sh
-npm install
-```
-
-## Usage
-
-```sh
-npm run start
-```
 
 ## Author
 
 👤 **Michael Payne**
 
-- Website: michaelspayneii.com
+- Website: [Michael Payne] (https://michaelspayneii.com/)
 - Github: [@MSPayneII](https://github.com/MSPayneII)
 - LinkedIn: [@michaelspayneii](https://linkedin.com/in/michaelspayneii)
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
-=======
-
+# _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
