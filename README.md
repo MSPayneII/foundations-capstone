@@ -32,7 +32,7 @@ Build a digital experience that rivals the experience of playing with the real M
 
 - Practicality
 - Creative way to build a CRD (no U) application
-- Change to learn by doing
+- Chance to learn by doing
 
 ### Screenshot
 
